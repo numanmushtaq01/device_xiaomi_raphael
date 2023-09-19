@@ -363,6 +363,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_KERNEL):kernel
 PRODUCT_ENABLE_UFFD_GC := true
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
