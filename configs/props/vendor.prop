@@ -170,6 +170,7 @@ ro.vendor.fm.use_audio_session=true
 vendor.gatekeeper.disable_spu=true
 
 # Graphics
+debug.graphics.game_default_frame_rate.disabled=true
 debug.renderengine.backend=skiaglthreaded
 debug.sf.late.sf.duration=15666666
 debug.sf.late.app.duration=13666666
