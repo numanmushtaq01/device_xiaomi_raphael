@@ -1,9 +1,9 @@
 [
    {
       "remote":"github",
-      "repository":"SOVIET-ANDROID/android_hardware_xiaomi",
+      "repository":"android_hardware_xiaomi",
       "target_path":"hardware/xiaomi",
-      "branch":"15.0"
+      "branch":"fifteen"
    },
    {
       "repository":"device_xiaomi_raphael-kernel",
