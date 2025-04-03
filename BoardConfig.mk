@@ -99,7 +99,6 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(BOARD_PREBUILT_DTBIMAGE_DIR)/sm8150-v2.dtb
 
 
 # Media
-TARGET_DISABLED_UBWC := true
 TARGET_USES_ION := true
 
 # Partitions
