@@ -57,7 +57,6 @@ TARGET_USES_COLOR_METADATA := true
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 # Fingerprint
 TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 338
-TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
 TARGET_USES_FOD_ZPOS := true
 
 # HIDL
