@@ -660,4 +660,12 @@
     <!-- Whether WM DisplayContent supports high performance transitions
          (lower-end devices may want to disable) -->
     <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
+    <integer name="config_num_physical_slots">2</integer>
+
+    <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
+    <bool name="config_screen_off_udfps_enabled">true</bool>
+
+    <!-- Default value for fp screen off unlock toggle, it only works for the devices that support
+         fp screen off unlock-->
+    <bool name="config_screen_off_udfps_default_on">true</bool>
 </resources>
