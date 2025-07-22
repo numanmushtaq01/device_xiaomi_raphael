@@ -64,9 +64,6 @@ TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 338
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
 TARGET_USES_FOD_ZPOS := true
 
-# FM
-BOARD_HAVE_QCOM_FM := true
-
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 	$(DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml \
