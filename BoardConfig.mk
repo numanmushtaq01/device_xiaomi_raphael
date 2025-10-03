@@ -81,7 +81,7 @@ ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/configs/hidl/manifest_nfc.xml
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
 BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_IMAGE_NAME := Image
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 
 BOARD_KERNEL_CMDLINE += console=null
@@ -95,6 +95,7 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_CMDLINE += kpti=off
 BOARD_KERNEL_CMDLINE += swiotlb=1
 
+TARGET_PREBUILT_KERNEL := device/xiaomi/raphael/prebuilt/image.gz-dtb
 TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
 TARGET_NO_KERNEL_OVERRIDE := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
