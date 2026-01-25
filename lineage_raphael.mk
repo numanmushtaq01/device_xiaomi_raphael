@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common YAAP stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
 
 # Gapps
 #TARGET_BUILD_GAPPS := true
