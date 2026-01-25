@@ -31,12 +31,13 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
-
 # Disable/Enable Blur Support, default is false
 TARGET_ENABLE_BLUR := true
-
 # Quick Tap Feature
 TARGET_SUPPORTS_QUICK_TAP := true
+# Flags
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_raphael
