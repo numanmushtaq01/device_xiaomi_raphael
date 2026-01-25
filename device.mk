@@ -546,13 +546,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext-privapp-permissions-qti.xml
 
 # Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-PRODUCT_PACKAGES += \
-    ColumbusService
-
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
+PRODUCT_SYSTEM_EXT_PROPERTIES  += \
+    persist.columbus.model=tap7cls_coral.tflite
 
 # RIL
 PRODUCT_PACKAGES += \
