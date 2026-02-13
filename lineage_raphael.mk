@@ -23,6 +23,11 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common PIXELOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit keys only if they are not included before.
+ifndef ANDROID_PRIV_KEYS_MK_INCLUDED
+$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
+endif
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2340
