@@ -7,6 +7,15 @@
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/raphael/raphael-vendor.mk)
 
+# ART / Dexpreopt
+PRODUCT_USES_DEFAULT_ART_CONFIG := true
+
+# Enable dexpreopt
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_DEBUG_INFO := false
+DEX_PREOPT_DEFAULT := speed-profile
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
