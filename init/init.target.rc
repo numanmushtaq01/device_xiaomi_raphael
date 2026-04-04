@@ -144,6 +144,10 @@ on early-boot
     chown system system /sys/class/leds/vibrator/vmax_mv
     chmod 0600 /sys/class/leds/vibrator/vmax_mv
 
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+    
 # For cpusets initialize for Silver Only first and then Silver + Gold
 # Silver Only configuration cannot work with 0-7
 on boot
