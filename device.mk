@@ -362,12 +362,6 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
-# Kernel
-LOCAL_KERNEL := device/xiaomi/raphael-kernel/Image
-PRODUCT_COPY_FILES += \
-	$(LOCAL_KERNEL):kernel
-PRODUCT_ENABLE_UFFD_GC := true
-
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
