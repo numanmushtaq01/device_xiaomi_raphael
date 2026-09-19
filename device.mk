@@ -384,6 +384,10 @@ $(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,fal
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay-service.raphael
+
 # Logging
 SPAMMY_LOG_TAGS := \
     MiStcImpl \
