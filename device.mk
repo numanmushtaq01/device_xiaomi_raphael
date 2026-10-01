@@ -210,6 +210,7 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libMegviiFacepp-0.5.2 \
     libmegface \
+    libmpbase_shim \
     libstdc++_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
